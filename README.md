@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-
+https://github.com/Tandwill/Project_1/blob/e56cb9f2a37683fd18c9dc71806b0e6e8d63b4fd/diagrams/Tia_Williams_Copy%20of%20Homework%2012_2.drawio.png
 
  /etc/ansible/install-elk.yml
  /etc/ansible/pentest.yml
@@ -102,7 +102,7 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-
+https://github.com/Tandwill/Project_1/blob/92049165b0a3a752c8fd5eb0b704aa606a85382a/diagrams/Docker-PS.png
 
 - docker_ps_output.png
 
