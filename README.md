@@ -133,7 +133,7 @@ How do I specify which machine to install the ELK server on versus which to inst
 
 Which URL do you navigate to in order to check that the ELK server is running?
 - SSH azadmin@10.0.0.8 (Web-1)
--  http://52.161.2.113:5601/app/Kibana
+-  http://52.161.2.113:5601/app/#kibana/home
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 ![Ansible-Playbook_NAME_OF_PLAYBOOK](https://user-images.githubusercontent.com/93887230/155858727-f18abb49-e8fc-4546-8a77-7fc8c3a7a620.png)
