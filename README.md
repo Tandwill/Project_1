@@ -4,10 +4,10 @@ The files in this repository were used to configure the network depicted below.
 
 https://github.com/Tandwill/Project_1/blob/e56cb9f2a37683fd18c9dc71806b0e6e8d63b4fd/diagrams/Tia_Williams_Copy%20of%20Homework%2012_2.drawio.png
 
- /etc/ansible/install-elk.yml
- /etc/ansible/pentest.yml
- /etc/ansible/roles/filebeat-playbook.yml
- /etc/ansible/rolesmetricebeat-playbook.ym
+diagrams/install-elk.yml.png
+diagrams/pentest.yml.png
+diagrams/filebeat-playbook.yml.png
+ diagrams/rolesmetricebeat-playbook.yml.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -112,8 +112,6 @@ This ELK server is configured to monitor the following machines:
 
 - Web-1 10.0.0.8
 - Web-2 10.0.0.9
-- 
-
 
 We have installed the following Beats on these machines:
 - Webservers
@@ -128,7 +126,7 @@ SSH into the control node and follow the steps below:
 - Copy the filebeat file to file-conifg.yml.
 - Update the filebeat.yml file to include...
 - Run the playbook, and navigateto check that the installation worked as expected.  (Screenshot)
--
+
 ![Kibanaserver png](https://user-images.githubusercontent.com/93887230/155858552-0ea5c292-fdd3-44e0-bf43-c5aa371a0161.png)
 
 : Answer the following questions to fill in the blanks:_
