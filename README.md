@@ -7,7 +7,7 @@ https://github.com/Tandwill/Project_1/blob/e56cb9f2a37683fd18c9dc71806b0e6e8d63b
 diagrams/install-elk.yml.png
 diagrams/pentest.yml.png
 diagrams/filebeat-playbook.yml.png
- diagrams/rolesmetricebeat-playbook.yml.png
+diagrams/rolesmetricebeat-playbook.yml.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
