@@ -1,23 +1,20 @@
-Project 1
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
 
-![Network_Diagram_Project_1](https://user-images.githubusercontent.com/93887230/155861402-6c87f103-1e33-4423-85b7-18ea64d8b0f1.png)
-
-
-diagrams/install-elk.yml.png
-diagrams/pentest.yml.png
-diagrams/filebeat-playbook.yml.png
-diagrams/rolesmetricebeat-playbook.yml.png
+![Netwrok_Diagram png](https://user-images.githubusercontent.com/93887230/155860173-66efa5af-795d-4ef4-93b2-8aab3ac1fc3f.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - install-elk.yml
-  - pentest.yml
-  - filebeat-playbook.yml
-  - metricbeat-playbook.yml
+## Install ELK Servers
+[install-elk.yml](https://github.com/Tandwill/Project_1/blob/540de3692dfe47396fb8884b7d57d927c15ee456/ansible/install-elk.yml)
+
+[pentest.yml](https://github.com/Tandwill/Project_1/blob/540de3692dfe47396fb8884b7d57d927c15ee456/ansible/pentest.yml)
+  
+[filebeat-playbook.yml](https://github.com/Tandwill/Project_1/blob/540de3692dfe47396fb8884b7d57d927c15ee456/ansible/filebeat-playbook.yml)
+
+[metricbeat-playbook.yml](https://github.com/Tandwill/Project_1/blob/540de3692dfe47396fb8884b7d57d927c15ee456/ansible/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topologu
@@ -70,7 +67,7 @@ Machines within the network can only be accessed by Jumpbox via SSH & Private Pr
 - Which machine did you allow to access your ELK VM? Jumpbox
 
 What was its IP address?
-- 104.208.26.243 (Jump box Public)
+- 104.208.26.243 (Jumpbox Public)
 
 A summary of the access policies in place can be found in the table below.
 
@@ -87,12 +84,6 @@ What is the main advantage of automating configuration with Ansible?
 - Configuration management, single source for application deployment
 
 The playbook implements the following tasks:
-
-- ansible-playbook pentest.yml
-- ansible-playbook filebeat-playbook.yml
-- ansible-playbook metricbeat-playbook.yml
-- ansible-playbook install-elk.yml
-
 
 In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 
