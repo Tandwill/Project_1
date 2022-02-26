@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://drive.google.com/file/d/1-PpKEvdqUz333wHCiAYdliF7Ui4nLbow/view?usp=sharing
+
 
  /etc/ansible/install-elk.yml
  /etc/ansible/pentest.yml
