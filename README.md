@@ -4,7 +4,8 @@ Project 1
 The files in this repository were used to configure the network depicted below.
 
 
-![Netwrok_Diagram png](https://user-images.githubusercontent.com/93887230/155860173-66efa5af-795d-4ef4-93b2-8aab3ac1fc3f.png)
+![Network_Diagram_Project_1](https://user-images.githubusercontent.com/93887230/155861402-6c87f103-1e33-4423-85b7-18ea64d8b0f1.png)
+
 
 diagrams/install-elk.yml.png
 diagrams/pentest.yml.png
