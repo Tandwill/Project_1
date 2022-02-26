@@ -102,7 +102,7 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-
+https://github.com/Tandwill/Project_1/blob/92049165b0a3a752c8fd5eb0b704aa606a85382a/diagrams/Docker-PS.png
 
 - docker_ps_output.png
 
