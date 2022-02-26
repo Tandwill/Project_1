@@ -2,7 +2,8 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/Tandwill/Project_1/blob/e56cb9f2a37683fd18c9dc71806b0e6e8d63b4fd/diagrams/Tia_Williams_Copy%20of%20Homework%2012_2.drawio.png
+
+![Netwrok_Diagram png](https://user-images.githubusercontent.com/93887230/155860173-66efa5af-795d-4ef4-93b2-8aab3ac1fc3f.png)
 
 diagrams/install-elk.yml.png
 diagrams/pentest.yml.png
