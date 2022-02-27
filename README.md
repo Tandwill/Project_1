@@ -67,6 +67,7 @@ Machines within the network can only be accessed by Jumpbox via SSH & Private Pr
 - Which machine did you allow to access your ELK VM? Jumpbox
 
 What was its IP address?
+-10.0.0.10 (Jumpbox Private)
 - 104.208.26.243 (Jumpbox Public)
 
 A summary of the access policies in place can be found in the table below.
