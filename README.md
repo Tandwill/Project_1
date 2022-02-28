@@ -145,5 +145,25 @@ As a **Bonus**, provide the specific commands the user will need to run to downl
 Ansible-Playbook_NAME_OF_PLAYBOOK
 ![Ansible-Playbook_NAME_OF_PLAYBOOK](https://user-images.githubusercontent.com/93887230/155858727-f18abb49-e8fc-4546-8a77-7fc8c3a7a620.png)
 
+[SSH into jumpbox](https://github.com/Tandwill/Project_1/blob/432b7f5b2cfd4bbf35d89ef5a84cd0039c4d0257/Bonus/Bonus_ssh_jumbox.png)
+
+[Sudo jumpbox](https://github.com/Tandwill/Project_1/blob/432b7f5b2cfd4bbf35d89ef5a84cd0039c4d0257/Bonus/Bonus_sudo_jump_box.png)
+
+[Root Ansible](https://github.com/Tandwill/Project_1/blob/432b7f5b2cfd4bbf35d89ef5a84cd0039c4d0257/Bonus/Bonus_root_ansible.png)
+
+[Root Ansibles Files](https://github.com/Tandwill/Project_1/blob/432b7f5b2cfd4bbf35d89ef5a84cd0039c4d0257/Bonus/Bonus_root_ansible_files.png)
+
+[Root Ansible Roles](https://github.com/Tandwill/Project_1/blob/432b7f5b2cfd4bbf35d89ef5a84cd0039c4d0257/Bonus/Bonus_root_ansible_roles.png)
+
+[Ansible-Playbook Install-ELK Playbook](https://github.com/Tandwill/Project_1/blob/432b7f5b2cfd4bbf35d89ef5a84cd0039c4d0257/Bonus/Bonus_elk_playbook.png)
+
+[Ansible-Playbook Filebeat-playbook](https://github.com/Tandwill/Project_1/blob/432b7f5b2cfd4bbf35d89ef5a84cd0039c4d0257/Bonus/Bonus_filebeat_playbook.png)
+
+[Ansible-Playbook Metricbeat-playbook](https://github.com/Tandwill/Project_1/blob/432b7f5b2cfd4bbf35d89ef5a84cd0039c4d0257/Bonus/Bonus_metricbeat_playbook.png)
+
+[Ansible-Playbook Pentest](https://github.com/Tandwill/Project_1/blob/432b7f5b2cfd4bbf35d89ef5a84cd0039c4d0257/Bonus/Bonus_pentest_playbook.png)
+
+
+
 
 
