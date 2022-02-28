@@ -120,8 +120,8 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the filebeat file to file-conifg.yml.
-- Update the filebeat.yml file to include...
+- Copy the filebeat file to file-conifg.yml. 
+- Update the filebeat.yml file to include 
 - Run the playbook, and navigate to http://52.161.2.113:5601/app/#kibana/home check that the installation worked as expected.  (Screenshot)
 
 ![Kibanaserver png](https://user-images.githubusercontent.com/93887230/155858552-0ea5c292-fdd3-44e0-bf43-c5aa371a0161.png)
@@ -133,6 +133,8 @@ SSH into the control node and follow the steps below:
 
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 - HostName in Host configuration file
+
+[Hosts.yml](https://github.com/Tandwill/Project_1/blob/0f9d9ae3fad643b2a662ada354626f7504b23add/linux/hosts.yml)
 
 Which URL do you navigate to in order to check that the ELK server is running?
 - SSH azadmin@10.0.0.8 (Web-1)
