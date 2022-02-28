@@ -33,7 +33,7 @@ Load balancing ensures that the application will be highly avaiability, in addit
 What aspect of security do load balancers protect?
 - Load balancers protect the system from DDoS attacks by shifting traffic. 
 
-What is the advantage of a jump box?_
+What is the advantage of a jump box?
 The advantage of a jump box is to give secure access to such resources via SSH and Private Pre-Shared key... 
 
 
@@ -88,7 +88,7 @@ What is the main advantage of automating configuration with Ansible?
 
 The playbook implements the following tasks:
 
-In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
 
 1.  Check for the presence of docker (Install/Update)
 2.  Check for the presence of python3-pip (Install/Update)
@@ -126,7 +126,7 @@ SSH into the control node and follow the steps below:
 
 ![Kibanaserver png](https://user-images.githubusercontent.com/93887230/155858552-0ea5c292-fdd3-44e0-bf43-c5aa371a0161.png)
 
-: Answer the following questions to fill in the blanks:_
+: Answer the following questions to fill in the blanks:
 - Which file is the playbook? Ansible-playbook files   
 - Where do you copy it? Root of ansible 
 - Which file do you update to make Ansible run the playbook on a specific machine? hosts configuration file
@@ -140,7 +140,7 @@ Which URL do you navigate to in order to check that the ELK server is running?
 - SSH azadmin@10.0.0.8 (Web-1)
 -  http://52.161.2.113:5601/app/#kibana/home
 
-As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 
 Ansible-Playbook_NAME_OF_PLAYBOOK
 ![Ansible-Playbook_NAME_OF_PLAYBOOK](https://user-images.githubusercontent.com/93887230/155858727-f18abb49-e8fc-4546-8a77-7fc8c3a7a620.png)
