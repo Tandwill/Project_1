@@ -5,7 +5,7 @@ The files in this repository were used to configure the network depicted below.
 
 ![Netwrok_Diagram](https://github.com/Tandwill/Project_1/blob/8edce60d38a94f7d280d0502a5a696e9b5415670/diagrams/Network_Diagram_Project_1.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the "yml" file may be used to install only certain pieces of it, such as Filebeat.
 
 ## Install ELK Servers
 [install-elk.yml](https://github.com/Tandwill/Project_1/blob/540de3692dfe47396fb8884b7d57d927c15ee456/ansible/install-elk.yml)
@@ -67,6 +67,9 @@ Machines within the network can only be accessed by Jumpbox via SSH & Private Pr
 - Which machine did you allow to access your ELK VM? Jumpbox
 
 What was its IP address?
+
+-10.0.0.10 (Jumpbox Private)
+
 - 104.208.26.243 (Jumpbox Public)
 
 A summary of the access policies in place can be found in the table below.
@@ -119,7 +122,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the filebeat file to file-conifg.yml.
 - Update the filebeat.yml file to include...
-- Run the playbook, and navigateto check that the installation worked as expected.  (Screenshot)
+- Run the playbook, and navigate to http://52.161.2.113:5601/app/#kibana/home check that the installation worked as expected.  (Screenshot)
 
 ![Kibanaserver png](https://user-images.githubusercontent.com/93887230/155858552-0ea5c292-fdd3-44e0-bf43-c5aa371a0161.png)
 
